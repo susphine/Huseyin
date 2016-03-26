@@ -370,9 +370,9 @@ namespace huseyin_yarrak_ye
             UseRMaxDam();
             AutoUseW();
             Killsteal();
-            Game.Say("ben bir ibne evladiyim beni allah gotumden siksin");
-            Game.Say("ben orospunun doguran picim beni gotumden sikin");
-            Game.Say("allah yok ben varim bana dua edin");
+            Game.Say("/all ben bir ibne evladiyim beni allah gotumden siksin");
+            Game.Say("/all ben orospunun doguran picim beni gotumden sikin");
+            Game.Say("/all allah yok ben varim bana dua edin");
             if (Orbwalker.ActiveMode == Orbwalking.OrbwalkingMode.Combo) Combo();
             if (Orbwalker.ActiveMode == Orbwalking.OrbwalkingMode.LaneClear) Jungleclear();
             if (Orbwalker.ActiveMode == Orbwalking.OrbwalkingMode.Mixed) Harass();
